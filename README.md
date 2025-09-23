@@ -1,12 +1,19 @@
-# IndoLearn Flashcards — Database (Deprecated)
+# IndoLearn Flashcards — Database
 
-This repository folder previously housed local PostgreSQL scripts and seeders.
+This repository folder provides a fully automated PostgreSQL setup and seeding workflow suitable for Kavia CI/CD without any Supabase requirements.
 
-Status: DEPRECATED. The project now uses Supabase exclusively.
+Highlights:
+- Pure PostgreSQL schema and demo seed (no RLS, no Supabase-specific features)
+- Non-interactive, idempotent setup
+- One-line psql connection from db_connection.txt
 
-What changed:
-- Local PostgreSQL startup/backup/seed scripts are no longer used
-- Data is stored and queried directly from Supabase tables
-- See `assets/supabase.md` for the Supabase schema and setup guide
+How to use:
+1) Create `flashcards_database/db_connection.txt` containing a single line:
+   psql postgresql://USER:PASSWORD@HOST:PORT/DBNAME
 
-You can safely remove this folder if not needed by your workflows.
+2) Run:
+   bash flashcards_database/setup_and_seed.sh
+
+Details:
+- See `flashcards_database/README.POSTGRES.md` for full instructions.
+- Supabase-specific docs remain in `assets/supabase.md` for projects that use Supabase. This project now supports both approaches; this folder covers native PostgreSQL only.
