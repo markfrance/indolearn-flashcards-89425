@@ -1,0 +1,11 @@
+english,indonesian,pos,category_slug,example_sentence,example_translation,difficulty,tags,audio_url
+house,rumah,noun,nouns,Ini rumah saya.,This is my house.,1,home,
+eat,makan,verb,verbs,Saya makan nasi.,I eat rice.,1,food,
+good,baik,adjective,common,Dia orang yang baik.,He is a good person.,1,quality,
+water,air,noun,nouns,Saya minum air.,I drink water.,1,drink,
+go,pergi,verb,verbs,Saya pergi ke sekolah.,I go to school.,1,action,
+come,datang,verb,verbs,Mereka datang besok.,They come tomorrow.,1,time,
+big,besar,adjective,common,Rumah itu sangat besar.,That house is very big.,1,size,
+small,kecil,adjective,common,Kucing itu kecil.,That cat is small.,1,size,
+book,buku,noun,nouns,Ini buku baru.,This is a new book.,1,school,
+friend,teman,noun,nouns,Dia teman saya.,He is my friend.,1,people,
